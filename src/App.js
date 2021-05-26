@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import DryBad from './modules/dry/DryBad';
+import DryGood from './modules/dry/DryGood';
 import PureExternal from './modules/pure/PureExternal';
 import PureSideEffect from './modules/pure/PureSideEffect';
 
@@ -22,6 +23,7 @@ function App() {
         </a> */}
         <h1>React: Becoming a better programmer</h1>
         <DryBad />
+        <DryGood />
         <PureExternal />
         <PureSideEffect />
       </header>
