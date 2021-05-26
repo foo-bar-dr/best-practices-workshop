@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import DryBad from './modules/dry/DryBad';
-import PureBad from './modules/pure/PureBad';
+import PureExternal from './modules/pure/PureExternal';
+import PureSideEffect from './modules/pure/PureSideEffect';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         </a> */}
         <h1>React: Becoming a better programmer</h1>
         <DryBad />
-        <PureBad />
+        <PureExternal />
+        <PureSideEffect />
       </header>
     </div>
   );
