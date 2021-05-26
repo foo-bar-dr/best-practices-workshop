@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import DryBad from './modules/dry/DryBad';
+import PureBad from './modules/pure/PureBad';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
         >
           Learn React
         </a> */}
-        <h1>React Workshop</h1>
+        <h1>React: Becoming a better programmer</h1>
         <DryBad />
+        <PureBad />
       </header>
     </div>
   );
