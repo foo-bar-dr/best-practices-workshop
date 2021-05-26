@@ -21,11 +21,16 @@ function App() {
         >
           Learn React
         </a> */}
-        <h1>React: Becoming a better programmer</h1>
+        <h1>React: Writing Better Code</h1>
+
         <DryBad />
-        <DryGood />
-        <PureExternal />
-        <PureSideEffect />
+
+        {/* <DryGood /> */}
+
+        {/* <PureExternal /> */}
+
+        {/* <PureSideEffect /> */}
+
       </header>
     </div>
   );
