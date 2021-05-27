@@ -8,6 +8,7 @@ const ActionColumn = (props) => {
         <button
           onClick={actionButton?.onClickHandler}
           style={{ fontSize: 16 }}
+          key={actionButton?.name}
         >
           {actionButton?.name}
         </button>

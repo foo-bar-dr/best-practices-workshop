@@ -4,6 +4,8 @@ import DryBad from './modules/dry/DryBad';
 import DryGood from './modules/dry/DryGood';
 import PureExternal from './modules/pure/PureExternal';
 import PureSideEffect from './modules/pure/PureSideEffect';
+import LiskovExampleGood from "./modules/liskov/liskov-good/LiskovExampleGood";
+import LiskovExampleBad from './modules/liskov/liskov-bad/LiskovExampleBad';
 
 function App() {
   return (
@@ -23,13 +25,17 @@ function App() {
         </a> */}
         <h1>React: Writing Better Code</h1>
 
-        <DryBad />
+        {/* <DryBad /> */}
 
-        {/* <DryGood /> */}
+        <DryGood />
 
         {/* <PureExternal /> */}
 
         {/* <PureSideEffect /> */}
+
+        {/* <LiskovExampleBad /> */}
+
+        {/* <LiskovExampleGood /> */}
 
       </header>
     </div>
